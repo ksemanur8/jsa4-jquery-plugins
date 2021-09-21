@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Extream</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.css"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://www.jqueryscript.net/demo/news-ticker-controls-acme/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/sprites.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <!-- Header here -->
+    <div class="container-fluid">
+      <div class="row header-bar">
+        <div class="col-md-9"></div>
+        <div class="col-md-3 header-buttons">
+          <p id="mini-text">MINI of Raleigh</p>
+          <div class="header-icons">
+            <a href="#" id="help-icon" class="header-icon"><i></i></a>
+            <a href="#" id="settings-icon" class="header-icon"><i></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row main-nav-bg">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 main-nav-icons">
+          <a href="#" id="dashboard-icon" class="main-nav-icon">
+            <i></i>
+          </a>
+          <a href="#" id="people-icon" class="main-nav-icon">
+            <i></i>
+          </a>
+          <a href="#" id="message-icon" class="main-nav-icon">
+            <i></i>
+          </a>
+          <a href="#" id="tag-icon" class="main-nav-icon">
+            <i></i>
+          </a>
+          <a href="#" id="post-icon" class="main-nav-icon">
+            <i></i>
+          </a>
+          <a href="#" id="chart-icon" class="main-nav-icon">
+            <i></i>
+          </a>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+    <!-- Close of top nav container -->
+
+    <!-- Open search box -->
+    <div class="container">
+      <div class="row dash-search-bar">
+        <div class="col-md-8"><p>Dashboard</p></div>
+        <div class="col-md-4 search-container">
+          <form action="#">
+            <input type="text" />
+            <a href="#"><i class="fas fa-search"></i></a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Close search box -->
+
+    <!-- Open main container -->
+    <div class="container main-exterior">
+      <div class="row main-interior main-icons">
+        <div class="col-md-3 light-border" id="ann-orange-text">
+          <p>ANNOUNCEMENTS</p>
+        </div>
+        <div class="col-md-9 light-border" id="ann-gray-text">
+          <!--<div class="myWrapper">
+            <div>
+              <div>
+                Sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Vivamus sagittis lacus
+              </div>
+              <div>This is announcement 2</div>
+              <div>This is announcement 3</div>
+            </div>
+          </div>-->
+          <div class="acme-news-ticker">
+            <div class="acme-news-ticker-box">
+              <ul class="my-news-ticker">
+                <!--added ids to keep track-->
+                <li data-ids="1">
+                  <a href="#"
+                    >Sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus.</a
+                  >
+                </li>
+                <li data-ids="2"><a href="#">This is news 2</a></li>
+                <li data-ids="3"><a href="#">This is news 3</a></li>
+              </ul>
+            </div>
+            <div
+              class="
+                acme-news-ticker-controls acme-news-ticker-horizontal-controls
+              "
+            >
+              <span class="acme-news-ticker-arrow acme-news-ticker-prev"></span>
+              <span class="acme-news-ticker-arrow acme-news-ticker-next"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 light-border">
+          <div class="row tasks-container">
+            <div id="tasks-header">
+              <p id="tasks-heading" class="blue-text">Tasks</p>
+              <a id="gray-settings"><i></i></a>
+            </div>
+
+            <div class="tasks-item border-bottom">
+              <div class="tasks-num-text">
+                <p class="task-num">1</p>
+                <p class="blue-text task-text">Welcome Contacts</p>
+              </div>
+              <a id="people-1"><i></i></a>
+            </div>
+            <div class="tasks-item border-bottom">
+              <div class="tasks-num-text">
+                <p class="task-num">2</p>
+                <p class="blue-text task-text">Provide Responses</p>
+              </div>
+              <a id="people-2"><i></i></a>
+            </div>
+            <div class="tasks-item border-bottom">
+              <div class="tasks-num-text">
+                <p class="task-num">3</p>
+                <p class="blue-text task-text">Review Activity</p>
+              </div>
+              <a id="people-3"><i></i></a>
+            </div>
+            <div class="tasks-item">
+              <div class="tasks-num-text">
+                <p class="task-num">4</p>
+                <p class="blue-text task-text">Reach Out</p>
+              </div>
+              <a id="people-4"><i></i></a>
+            </div>
+          </div>
+          <div class="row recs-container light-border">
+            <div id="recs-header">
+              <p id="recs-heading" class="blue-text">Recommendations</p>
+            </div>
+            <div class="recs-item dotted-border">
+              <a id="article-1"><i></i></a>
+              <div class="ctg-n-title">
+                <p class="ctg">Article</p>
+                <p class="title">7 Steps to getting more Fans</p>
+              </div>
+            </div>
+            <div class="recs-item dotted-border">
+              <a id="article-2"><i></i></a>
+              <div class="ctg-n-title">
+                <p class="ctg">Article</p>
+                <p class="title">Increase traction with more interactions</p>
+              </div>
+            </div>
+            <div class="recs-item dotted-border">
+              <a id="green-check"><i></i></a>
+              <div class="ctg-n-title">
+                <p class="ctg">Checklist</p>
+                <p class="title">Creating a Promotion</p>
+              </div>
+            </div>
+            <div class="recs-item dotted-border">
+              <a id="green-lightbulb"><i></i></a>
+              <div class="ctg-n-title">
+                <p class="ctg">Tip</p>
+                <p class="title">Share More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row analytics-container light-border">
+            <div id="analytics-heading"><p>Analytics</p></div>
+            <div id="data">
+              <div class="col-md-6">
+                <div id="data-left">
+                  <div id="title-dd">
+                    <p class="col-md-6" id="activity-text">ACTIVITY</p>
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-primary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        6/28/11 - 07/21/11
+                      </button>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >07/22/11 - 8/27/11</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >08/28/11 - 9/21/11</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >09/22/11 - 10/27/11</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div id="chart-container">
+                    <a id="chart" href="#"><i></i></a>
+                  </div>
+                  <div id="social-checks">
+                    <!--Reference: https://www.w3schools.com/howto/howto_css_custom_checkbox.asp-->
+                    <label class="ch-container" id="facebook"
+                      ><i></i>
+                      <input type="checkbox" checked="checked" />
+                      <span class="orng-cm"></span>
+                    </label>
+
+                    <label class="ch-container" checked="checked" id="twitter"
+                      ><i></i>
+                      <input type="checkbox" />
+                      <span class="orng-cm"></span>
+                    </label>
+
+                    <label class="ch-container" id="foursquare"
+                      ><i></i>
+                      <input type="checkbox" />
+                      <span class="orng-cm"></span>
+                    </label>
+
+                    <label class="ch-container" id="google"
+                      ><i></i>
+                      <input type="checkbox" />
+                      <span class="orng-cm"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div id="data-right">
+                  <img src="./images/analytics-spacer.png" alt="" />
+                  <div class="pies">
+                    <div class="pies-heading"><p>CHANNELS</p></div>
+                    <div>
+                      <span class="tooltip" title="Twitter">Hover pie</span>
+                      <a id="pie-1" href="#"><i></i></a>
+                    </div>
+
+                    <div class="pies-heading"><p>REFERRALS</p></div>
+                    <div>
+                      <span class="tooltip" title="Facebook">Hover pie</span>
+                      <a id="pie-2" href="#"><i></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row person-charts-container light-border">
+            <div id="con-n-cus">
+              <div class="box-container">
+                <div class="box-bg">
+                  <div id="l-person">
+                    <img src="./images/green-person.png" alt="" />
+                  </div>
+                  <div id="l-banner">
+                    <div class="banner-text">
+                      <p class="big-text">75 CONTACTS</p>
+                      <br />
+                      <p class="small-text">4 INFLUENCERS</p>
+                    </div>
+                    <img src="./images/banner.png" alt="" />
+                  </div>
+                  <div id="l-chart">
+                    <img src="./images/green-chart.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="box-container">
+                <div class="box-bg">
+                  <div id="r-person">
+                    <img src="./images/orange-person.png" alt="" />
+                  </div>
+                  <div id="r-banner">
+                    <div class="banner-text">
+                      <p class="big-text">17 CUSTOMERS</p>
+                      <br />
+                      <p class="small-text">0 INFLUENCERS</p>
+                    </div>
+                    <img src="./images/banner.png" alt="" />
+                  </div>
+                  <div id="r-chart">
+                    <img src="./images/orange-chart.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row slider-container">
+            <div id="slider">
+              <a class="slider-arrow" id="s-arr-1" href="#"><i></i></a>
+              <p id="slider-p">
+                DID YOU KNOW? <br />
+                Maecenas sed diam eget risus varius blandit sit amet non magna.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                porta sem malesuada magna mollis euismod.
+              </p>
+              <a class="slider-arrow" id="s-arr-2" href="#"><i></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="row image-container">
+            <div class="col-md-4 space-bottom">
+              <div class="lower-img">
+                <img id="img-1" src="./images/img-1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-4 space-bottom">
+              <div class="lower-img">
+                <img id="img-2" src="./images/img-2.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-4 space-bottom">
+              <div class="lower-img">
+                <img id="img-3" src="./images/img-3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Close of main container -->
+
+    <div class="container-fluid">
+      <div class="row footer main-icons">
+        <div class="col-md-3 links light-border">
+          <p>Tutorials</p>
+          <img src="./images/footer-spacer.png" alt="" />
+          <p>Support</p>
+          <img src="./images/footer-spacer.png" alt="" />
+          <p>Blog</p>
+        </div>
+        <div class="col-md-6 notification">
+          <p>
+            <span>Ariel Winter</span> likes your
+            <span>Win A Cooper Sweepstakes</span> Promotion
+          </p>
+          <a id="footer-pull" href="#"><i></i></a>
+        </div>
+        <div class="col-md-3 accounts light-border">
+          <div id="account-info">
+            <a id="pp" href="#"><i></i></a>
+            <p>Logout</p>
+          </div>
+          <div id="footer-socials">
+            <a id="f-socials" href="#"><i></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1. load jquery and js-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/jquery.easy-ticker.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.js"></script>
+    <script src="https://www.jqueryscript.net/demo/news-ticker-controls-acme/assets/js/acmeticker.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+/*
+.sprite {
+  background-image: url(../images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-HoverStates_01 {
+  width: 60px;
+  height: 90px;
+  background-position: -5px -5px;
+}
+
+.sprite-HoverStates_02 {
+  width: 78px;
+  height: 90px;
+  background-position: -75px -5px;
+}
+
+.sprite-HoverStates_03 {
+  width: 60px;
+  height: 90px;
+  background-position: -163px -5px;
+}
+
+.sprite-HoverStates_04 {
+  width: 67px;
+  height: 90px;
+  background-position: -5px -105px;
+}
+
+.sprite-HoverStates_05 {
+  width: 60px;
+  height: 90px;
+  background-position: -233px -5px;
+}
+
+.sprite-HoverStates_06 {
+  width: 68px;
+  height: 90px;
+  background-position: -82px -105px;
+}
+
+.sprite-MainStates_01 {
+  width: 60px;
+  height: 90px;
+  background-position: -160px -105px;
+}
+
+.sprite-MainStates_02 {
+  width: 78px;
+  height: 90px;
+  background-position: -5px -205px;
+}
+
+.sprite-MainStates_03 {
+  width: 60px;
+  height: 90px;
+  background-position: -230px -105px;
+}
+
+.sprite-MainStates_04 {
+  width: 67px;
+  height: 90px;
+  background-position: -93px -205px;
+}
+
+.sprite-MainStates_05 {
+  width: 60px;
+  height: 90px;
+  background-position: -170px -205px;
+}
+
+.sprite-MainStates_06 {
+  width: 68px;
+  height: 90px;
+  background-position: -303px -5px;
+}
+
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-help-with-spacer {
+  width: 43px;
+  height: 30px;
+  background-position: -5px -5px;
+}
+
+.sprite-settings-with-spacer {
+  width: 46px;
+  height: 30px;
+  background-position: -58px -5px;
+}
+*/
